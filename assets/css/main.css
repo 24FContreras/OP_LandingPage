@@ -26,6 +26,14 @@ nav ul {
 nav ul li {
   padding: 0 0.5rem;
 }
+nav ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: white;
+}
 
 .nav-logo {
   font-size: 24px;
@@ -69,6 +77,10 @@ nav ul li {
   border-radius: 0.5rem;
   font-weight: 500;
   margin-top: 0.55rem;
+  transition: background-color 0.3s ease;
+}
+.btn:hover, .btn-outline:hover {
+  background-color: #1763de;
 }
 
 h2 {
@@ -100,6 +112,10 @@ h2 {
   flex-direction: column;
   line-height: 1.25rem;
   color: #1f2937;
+  transition: 0.3s ease;
+}
+.feature:hover {
+  transform: scale(1.1);
 }
 
 .feature-img {
@@ -173,4 +189,9 @@ footer {
 
 .btn-outline {
   border: 3px solid white;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.btn-outline:hover {
+  background-color: white;
+  color: #3882f6;
 }/*# sourceMappingURL=main.css.map */
